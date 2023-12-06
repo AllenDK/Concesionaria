@@ -112,7 +112,7 @@ button_texts = ["CITAS", "CATALOGO", "VENTAS", "REFACCIONES", "SEGURO", "CERRAR 
 # Crear cinco botones horizontales con acciones personalizadas
 for i in range(6):
     button = Button(frame_botones, text=button_texts[i], command=actions[i], bg='gray', fg='white')
-    button.pack(side="left", padx=20, pady=5)
+    button.pack(side="left", padx=30, pady=5)
 
 img1 = PhotoImage(file='Imagenes/Logo.png')
 Label(root, image=img1, bg='red').place(x=10, y=10)
