@@ -3,7 +3,7 @@ from tkinter import W, Entry, StringVar, Tk, Frame, Label, Button, PhotoImage, t
 
 # Funciones personalizadas para cada botón
 def action_1():
-    subprocess.Popen(["python3", "CompraAuto.py"])
+    subprocess.Popen(["python3", "Citas.py"])
     root.withdraw()
 
 def action_2():
@@ -11,7 +11,7 @@ def action_2():
     root.withdraw()
 
 def action_3():
-    subprocess.Popen(["python3", "Cotizacion.py"])
+    subprocess.Popen(["python3", "Ventas.py"])
     root.withdraw()
 
 def action_4():
@@ -65,7 +65,7 @@ label_Cotizacion = Label(frame_franja_gris_2, text="Cotizacion", bg='#4D4D4D', f
 label_Cotizacion.pack(side="top", pady=20, anchor="center")
 
 # Textos para cada botón
-button_texts = ["AUTOS NUEVOS", "CATALOGO", "COTIZACION", "REFACCIONES", "SEGURO", "CERRAR SESION"]
+button_texts = ["CITAS", "CATALOGO", "VENTAS", "REFACCIONES", "SEGURO", "CERRAR SESION"]
 
 # Crear cinco botones horizontales con acciones personalizadas
 for i in range(6):

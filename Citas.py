@@ -30,7 +30,7 @@ def action_6():
 actions = [action_1, action_2, action_3, action_4, action_5, action_6]
 
 root = Tk()
-root.title('Seguro')
+root.title('Citas')
 root.geometry('1300x700')
 root.configure(bg="gray")
 root.resizable(False, False)
@@ -48,7 +48,7 @@ frame_franja_gris = Frame(root, bg='#4D4D4D')  # Ajusta el tamaño y el color se
 frame_franja_gris.pack(fill='x') # Esto expandirá el frame horizontalmente para ajustarse al ancho de la ventana
 
 # Etiqueta con el texto "REFACCIONES" sobre la franja gris
-label_refacciones = Label(frame_franja_gris, text="SEGURO", bg='#4D4D4D', fg='white', font=('icrosoft YaHei UI Light',20,'bold'))
+label_refacciones = Label(frame_franja_gris, text="CITAS", bg='#4D4D4D', fg='white', font=('icrosoft YaHei UI Light',20,'bold'))
 label_refacciones.pack(padx=20, pady=10, side="left")
 
 # Crear el fondo de la 3ra franja
